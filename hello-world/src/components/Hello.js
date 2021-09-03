@@ -1,11 +1,11 @@
-import react from 'react'
+import React from 'react'
 
-function Hello()
- {
-     return  (
+const Hello = () => {
+    return (
         <div>
-            <h1>Hello, World a simple react component</h1>
+            <h1>Hello world from a functional jsx component</h1>
         </div>
-     )
- }
- export default Hello
+    )
+}
+
+export default Hello
