@@ -5,6 +5,7 @@ import Hello from './components/Hello'
 import ReactCreateMethod from './components/ReactCreateMethod';
 import Message from './components/Message';
 import Counter from './components/Counter';
+import BasicTable from './components/T';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
         <ReactCreateMethod /> */}
         {/* <Message /> */}
         <Counter />
+        <BasicTable />
     </div>
   );
 }
