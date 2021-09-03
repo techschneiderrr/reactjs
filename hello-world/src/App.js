@@ -3,12 +3,13 @@ import { Greet } from './components/Greet'
 import Welcome from './components/Welcome'
 import Hello from './components/Hello'
 import ReactCreateMethod from './components/ReactCreateMethod';
+import Message from './components/Message';
 
 function App() {
   return (
     <div className="App">
       
-        <Greet name="Manav" >
+        {/* <Greet name="Manav" >
           <h4>
             This is a child prop for manav
           </h4>
@@ -31,7 +32,8 @@ function App() {
         </Welcome>
         <Welcome name="Divya"/>
         <Hello />
-        <ReactCreateMethod />
+        <ReactCreateMethod /> */}
+        <Message />
     </div>
   );
 }
