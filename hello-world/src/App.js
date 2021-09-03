@@ -19,7 +19,17 @@ function App() {
           </button>
         </Greet>
         <Greet name="Divya" ></Greet>
-        <Welcome />
+        <Welcome name="Manav">
+          <h4>
+            This is a child prop for manav
+          </h4>
+        </Welcome>
+        <Welcome name="Veer">
+          <button>
+            Click me
+          </button>
+        </Welcome>
+        <Welcome name="Divya"/>
         <Hello />
         <ReactCreateMethod />
     </div>
