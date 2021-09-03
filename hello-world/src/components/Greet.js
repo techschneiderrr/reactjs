@@ -7,6 +7,12 @@ import React from 'react'
 // this was default export
 //  export default Greet
 
-export const Greet = ()=>{
-   return <h1>Hello, Manav !!</h1>
+export const Greet = (props)=>{
+   console.log(props)
+   return(
+      <div>
+         <h1>Hello, {props.name} !!</h1>
+         {props.children}
+      </div>
+   ) 
 }

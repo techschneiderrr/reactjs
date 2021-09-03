@@ -8,7 +8,17 @@ function App() {
   return (
     <div className="App">
       
-        <Greet/>
+        <Greet name="Manav" >
+          <h4>
+            This is a child prop for manav
+          </h4>
+        </Greet>
+        <Greet name="Veer" >
+          <button>
+            Click me
+          </button>
+        </Greet>
+        <Greet name="Divya" ></Greet>
         <Welcome />
         <Hello />
         <ReactCreateMethod />
