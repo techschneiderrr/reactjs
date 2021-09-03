@@ -4,6 +4,7 @@ import Welcome from './components/Welcome'
 import Hello from './components/Hello'
 import ReactCreateMethod from './components/ReactCreateMethod';
 import Message from './components/Message';
+import Counter from './components/Counter';
 
 function App() {
   return (
@@ -33,7 +34,8 @@ function App() {
         <Welcome name="Divya"/>
         <Hello />
         <ReactCreateMethod /> */}
-        <Message />
+        {/* <Message /> */}
+        <Counter />
     </div>
   );
 }
