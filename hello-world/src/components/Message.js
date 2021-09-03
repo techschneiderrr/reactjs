@@ -1,26 +1,27 @@
 import React, { Component } from 'react'
 
-export default class Message extends Component {
+class Message extends Component {
     constructor()
     {
         super()
         this.state = {
-            message : 'Welcome visitor'
+            mes : 'Welcome visitor'
         }
     }
 
     changeMessage(){
-        this.setState = ({
-            message : 'Thanks for subscribing'
+        this.setState({
+            mes : 'Thankyou for subscribing'
         })
     }
 
     render() {
         return (
             <div>
-                <h1>{this.state.message}</h1>
-                <button onClick={()=>this.changeMessage()}>Subscribe</button>
+                <h1>{this.state.mes}</h1>
+                <button onClick={() => this.changeMessage()}>Subscribe</button>
             </div>
         )
     }
 }
+export default Message
