@@ -11,17 +11,27 @@ export class Counter extends Component {
 
     incrementCounter()
     {
-        this.setState({
-            count : this.state.count + 1
-        },()=>console.log(this.state.count))
-        
+        // this.setState({
+        //     count : this.state.count + 1
+        // },()=>console.log(this.state.count))
+        this.setState((prevState)=>({
+          count : prevState.count + 1  
+        }),()=>console.log(this.state.count))
+    }
+    incfive()
+    {
+        this.incrementCounter()
+        this.incrementCounter()
+        this.incrementCounter()
+        this.incrementCounter()
+        this.incrementCounter()
     }
 
     render() {
         return (
             <div>
                 <p>Count - {this.state.count}</p>
-                <button onClick={()=>this.incrementCounter()}>Increment</button>
+                <button onClick={()=>this.incfive()}>Increment</button>
             </div>
         )
     }
