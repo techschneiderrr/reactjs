@@ -9,12 +9,14 @@ import BasicTable from './components/T';
 import Destructuring from './components/Destructuring';
 import DestClass from './components/DestClass';
 import Functionclick from './components/Functionclick';
+import Classclick from './components/Classclick';
 
 function App() {
   return (
     <div className="App"> 
       
         <Functionclick />
+        <Classclick/>
         {/* <Greet name="Manav" >
           <h4>
             This is a child prop for manav
