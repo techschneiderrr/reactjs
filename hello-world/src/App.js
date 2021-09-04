@@ -6,10 +6,11 @@ import ReactCreateMethod from './components/ReactCreateMethod';
 import Message from './components/Message';
 import Counter from './components/Counter';
 import BasicTable from './components/T';
+import Destructuring from './components/Destructuring';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App"> 
       
         {/* <Greet name="Manav" >
           <h4>
@@ -37,7 +38,7 @@ function App() {
         <ReactCreateMethod /> */}
         {/* <Message /> */}
         <Counter />
-        <BasicTable />
+        <Destructuring name="Manav" heroName="superMan" nickName="Hero" />
     </div>
   );
 }
