@@ -1,4 +1,7 @@
 import React from 'react'
+
+//this was dstructuring in th efunctional components 
+
 //destructuring directly in the function parameter
 // const Destructuring = ({name, heroName, nickName}) => {
 //     return (

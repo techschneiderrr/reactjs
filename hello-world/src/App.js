@@ -7,11 +7,14 @@ import Message from './components/Message';
 import Counter from './components/Counter';
 import BasicTable from './components/T';
 import Destructuring from './components/Destructuring';
+import DestClass from './components/DestClass';
+import Functionclick from './components/Functionclick';
 
 function App() {
   return (
     <div className="App"> 
       
+        <Functionclick />
         {/* <Greet name="Manav" >
           <h4>
             This is a child prop for manav
@@ -23,7 +26,7 @@ function App() {
           </button>
         </Greet>
         <Greet name="Divya" ></Greet>
-        <Welcome name="Manav">
+        <Welcome name="Manav"> 
           <h4>
             This is a child prop for manav
           </h4>
@@ -37,8 +40,11 @@ function App() {
         <Hello />
         <ReactCreateMethod /> */}
         {/* <Message /> */}
-        <Counter />
-        <Destructuring name="Manav" heroName="superMan" nickName="Hero" />
+        {/* <Counter />
+        <Destructuring name="Manav" heroName="superMan" nickName="HeroLamba" />
+        <DestClass name="Manav" heroName="superMan" nickName="Hero" /> */}
+
+
     </div>
   );
 }
